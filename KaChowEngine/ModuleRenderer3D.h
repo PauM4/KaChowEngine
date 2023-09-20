@@ -33,4 +33,7 @@ public:
 	
 	//You won't need this after using Frustum
 	mat4x4 ProjectionMatrix;
+
+	mat3x3 NormalMatrix;
+	mat4x4 ModelMatrix, ViewMatrix;
 };
